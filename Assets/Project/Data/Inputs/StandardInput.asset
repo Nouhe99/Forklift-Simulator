@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6f692fe7ea49d34faf7c23d05b8e215, type: 3}
+  m_Name: StandardInput
+  m_EditorClassIdentifier: Assembly-CSharp::Acreos.ForkliftSim.Inputs.GameInputReader
+  moveReference: {fileID: 1532720563713059401, guid: 8c307bc78bf25454a87ccdaa0a9ff5fd, type: 3}
+  steerReference: {fileID: -903288982772736784, guid: 8c307bc78bf25454a87ccdaa0a9ff5fd, type: 3}
+  forkLiftReference: {fileID: 8005299528432375355, guid: 8c307bc78bf25454a87ccdaa0a9ff5fd, type: 3}
+  pauseReference: {fileID: -8081602395198504205, guid: 8c307bc78bf25454a87ccdaa0a9ff5fd, type: 3}
