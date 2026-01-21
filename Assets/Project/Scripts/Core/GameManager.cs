@@ -25,7 +25,7 @@ namespace Acreos.ForkliftSim.Core
         [SerializeField] private int _winMissionIndex = 2; // Default index for the victory screen
 
         [Header("Camera")]
-        [SerializeField] private ForkliftCamera _mainCamera; // Change to OrbitalCamera if needed
+        [SerializeField] private ForkliftCamera _mainCamera; 
 
         // Public Accessors
         public GameObject Mission1Group => _mission1Group;
@@ -37,7 +37,7 @@ namespace Acreos.ForkliftSim.Core
         public ForkliftCamera MainCamera => _mainCamera;
 
         private BaseGameState _currentState;
-
+       
         private void Start()
         {
             // Initial Setup
